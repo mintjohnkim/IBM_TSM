@@ -86,7 +86,7 @@ def main_worker(gpu, ngpus_per_node, args):
     #                     pretrained='imagenet',
     #                     )
     arch_name = 'TSM, resnet' + str(args.depth) + ', b ' + str(args.batch_size )+ ', g ' + str(args.groups) + ', lr ' + str(args.lr) + ', wd ' + str(args.weight_decay)
-    arch_name += ' kinetics150_1000 pretrained'
+    arch_name += ' sim150_1000 pretrained'
 
 
     #mean = None
